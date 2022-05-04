@@ -44,6 +44,7 @@ String GPS_program()
       String L_latitude=String(Latitude); //Converting the latitude value multiplied by 10^6 back to string format
       String L_longitude=String(Longitude); //Converting the longitude value multiplied by 10^6 back to string format
       a=String(L_latitude+","+L_longitude+","+L_Altitude);//Combining the String Values
+      return a; //Additional, can be removed
     }
   } 
   Serial.println(a);
